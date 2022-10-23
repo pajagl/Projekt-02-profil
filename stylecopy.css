@@ -60,8 +60,11 @@ a {
 }
 
 .portfolio {
-  height: 30px; width: 300px; text-align: center;
-  }
+  height: 30px;
+  width: 300px; 
+  text-align: center;
+  margin: 0px;
+}
 
 .facebook {
   text-align: center;
@@ -73,11 +76,22 @@ a {
   text-align: center;
   padding: 10px 40px 10px 40px;
   border: 1px solid #3f464d;
-  background-color: #1da1f2;
-  flex-grow: inherit;
+  flex-grow: 1;
   position: absolute;
   right: 0px;
   bottom: 0px;
+}
+
+.portfolio:hover{
+  background-color: #e74c3c;
+}
+
+.twitter:hover {
+  background-color: #1da1f2;
+}
+
+.facebook:hover{
+  background-color: #3b5998
 }
 
 
