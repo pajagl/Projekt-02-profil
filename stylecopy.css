@@ -1,0 +1,86 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+/* toto je černá magie, na kterou nešahej! */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: border-box; }
+
+/*
+BARVY
+czechitas                 #b92e81
+šedé pozadí stránky       #bdc3c7
+tmavé pozadí pod textem   #31363b
+dělítka mezi tlačítky     #3f464d
+tlačítko portfolio        #e74c3c
+tlačítko facebook         #3b5998
+tlačítko twitter          #1da1f2
+*/
+
+
+.body {
+  background-color: #bdc3c7;
+}
+
+.foto {width: 280px; position:fixed;}
+.obsah {
+  padding: 190px 20px 0px 20px;
+  position: static;
+}
+
+.logo {
+  background-color: #b92e81;
+  border-radius: 50%; 
+  float: right;
+  position: relative;
+  z-index: 1;
+  right: 32px;
+  top: 160px
+}
+
+.profil {
+  width: 280px;
+  background-color: #31363b;
+  font-family: source sans pro;
+  color: azure;
+  box-shadow: #31363b 3px 3px 30px;
+}
+
+.odkazy {
+  display: flex;
+  flex-wrap: wrap; 
+  color: azure;
+  text-transform:uppercase;
+  list-style: none;
+  padding: 10px 0px 0px 0px;
+  border: 1px solid #3f464d;
+  position: relative;
+}
+
+a {
+  text-decoration: none; 
+  color: azure;
+}
+
+.portfolio {
+  height: 30px; width: 300px; text-align: center;
+  }
+
+.facebook {
+  text-align: center;
+  padding: 10px 33px 10px 32px;
+  border: 1px solid #3f464d;
+}
+
+.twitter {
+  text-align: center;
+  padding: 10px 40px 10px 40px;
+  border: 1px solid #3f464d;
+  background-color: #1da1f2;
+  flex-grow: inherit;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+
+
+
+
